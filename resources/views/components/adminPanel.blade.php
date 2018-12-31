@@ -21,13 +21,7 @@ You are Logged In as a <strong>USER</strong>
 
 @if (Auth::guard('admin')->check())
 <p class="text-success">
-You are Logged In as a <strong>ADMIN</strong><br>
-<br>
-<br>
-{{-- <a href="{{route('admin.addProducts')}}">Add Product</a><br>
-<a href="{{route('admin.showCategories')}}">Categories</a><br>
-<a href="{{route('admin.showBrands')}}">Brands</a><br><br> --}}
-
+You are Logged In as a <strong>ADMIN</strong>
 </p>
 
 
